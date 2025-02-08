@@ -3,8 +3,8 @@
 <h2>Overview</h2>
 <p>
   This project is a Selenium-based Python automation framework designed for testing web applications. 
-  It is built using the Page Object Model (POM) design pattern and incorporates cross-browser testing, 
-  explicit waits, locators, and the Pytest testing framework.
+  It is built using the Page Object Model (POM) design pattern and incorporates cross-browser testing, TestNG Annotations,
+  explicit waits, locators, and the pytest testing framework.
 </p>
 
 <hr />
@@ -14,7 +14,7 @@
   <li><strong>Programming Language:</strong> Python</li>
   <li><strong>Framework:</strong> Selenium, Pytest</li>
   <li><strong>Design Pattern:</strong> Page Object Model (POM)</li>
-  <li><strong>Features:</strong> Explicit Waits, Cross-Browser Testing, Locators</li>
+  <li><strong>Features:</strong>TestNG Annotations,Locators, Waits, Cross-Browser Testing</li>
 </ul>
 
 <hr />
@@ -22,7 +22,7 @@
 <h2>Features</h2>
 <ul>
   <li><strong>Page Object Model:</strong> Implements reusable and maintainable page classes for web elements.</li>
-  <li><strong>Cross-Browser Testing:</strong> Tests can run on multiple browsers like Chrome, Firefox, etc.</li>
+  <li><strong>Cross-Browser Testing:</strong> Tests can run on multiple browsers like Edge, Firefox, etc.</li>
   <li><strong>Wait Mechanism:</strong> Uses explicit waits to ensure stable test execution.</li>
   <li><strong>Locators:</strong> Leverages ID, XPath, CSS Selector, and other locators for identifying elements.</li>
   <li><strong>Pytest:</strong> Provides fixtures, assertions, and parametrization for structured testing.</li>
@@ -65,8 +65,7 @@ pytest-html==3.x.x
 
 <hr />
 
-<h2>Contributors</h2>
-<p>Feel free to contribute to this project by creating issues or submitting pull requests.</p>
+
 
 <h2>License</h2>
 <p>This project is licensed under the <strong>MIT License</strong>.</p>
