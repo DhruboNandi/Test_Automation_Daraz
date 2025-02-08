@@ -2,9 +2,9 @@
 
 <h2>Overview</h2>
 <p>
-  This repository contains automation scripts developed using Selenium WebDriver with Java. 
-  The scripts demonstrate various essential Selenium WebDriver functionalities and testing practices, 
-  making them a comprehensive resource for beginners and professionals aiming to understand or implement automation testing.
+  This repository contains automation scripts developed using Selenium WebDriver and Python.
+  Here, I have used Page Object Model to automate the Homapage, login and cart page.
+  
 </p>
 
 <hr />
@@ -59,20 +59,13 @@
   <li>Refresh the current page.</li>
 </ul>
 
-<h3>7. Mouse Hover</h3>
-<p>Simulate mouse hover actions to interact with dynamic web elements or menus.</p>
 
-<h3>8. Copy-Paste Functionality</h3>
-<p>Automate copy-paste operations using Selenium WebDriver and related libraries.</p>
-
-<hr />
 
 <h2>Prerequisites</h2>
 <p>Ensure the following software and tools are installed before running the scripts:</p>
 <ul>
-  <li><strong>Java Development Kit (JDK)</strong></li>
-  <li><strong>Apache Maven</strong></li>
-  <li><strong>IntelliJ IDEA</strong> or any preferred Java IDE</li>
+  <li><strong>Pycharm (JDK)</strong></li>
+  <li><strong>Pytest</strong></li>
   <li><strong>Selenium WebDriver</strong></li>
   <li><strong>TestNG Framework</strong></li>
 </ul>
