@@ -1,104 +1,72 @@
-<h1>Selenium WebDriver Automation Scripts</h1>
+<h1>TestProject: Selenium Python Automation Framework</h1>
 
 <h2>Overview</h2>
 <p>
-  This repository contains automation scripts developed using Selenium WebDriver and Python.
-  Here, I have used Page Object Model to automate the Homapage, login and cart page.
-  
+  This project is a Selenium-based Python automation framework designed for testing web applications. 
+  It is built using the Page Object Model (POM) design pattern and incorporates cross-browser testing, 
+  explicit waits, locators, and the Pytest testing framework.
 </p>
 
 <hr />
 
-<h2>Features and Topics Covered</h2>
-
-<h3>1. Basic Browser Operations</h3>
+<h2>Technologies Used</h2>
 <ul>
-  <li><strong>Open Browser:</strong> Launch a web browser using WebDriver.</li>
-  <li><strong>Open URL:</strong> Navigate to a specific URL.</li>
-  <li><strong>Close/Quit Browser:</strong> Properly terminate the browser session.</li>
-  <li><strong>Thread Sleep:</strong> Pause script execution using <code>Thread.sleep</code> for demonstration purposes.</li>
-</ul>
-
-<h3>2. Headless Browser Testing</h3>
-<ul>
-  <li>Execute browser operations in headless mode to improve speed and efficiency.</li>
-  <li>Retrieve the page title in a headless browser environment.</li>
-</ul>
-
-<h3>3. TestNG Annotations</h3>
-<p>Implement various TestNG annotations for structured and maintainable test scripts:</p>
-<ul>
-  <li><strong>Before Annotations:</strong> <code>@BeforeSuite</code>, <code>@BeforeTest</code>, <code>@BeforeClass</code>, <code>@BeforeMethod</code></li>
-  <li><strong>Test Annotation:</strong> <code>@Test</code></li>
-  <li><strong>After Annotations:</strong> <code>@AfterMethod</code>, <code>@AfterClass</code>, <code>@AfterTest</code>, <code>@AfterSuite</code></li>
-</ul>
-
-<h3>4. Web Element Locators</h3>
-<p>Utilized different locators to identify and interact with web elements:</p>
-<ul>
-  <li><strong>ID</strong></li>
-  <li><strong>Name</strong></li>
-  <li><strong>Link Text</strong></li>
-  <li><strong>Partial Link Text</strong></li>
-  <li><strong>Tag Name</strong></li>
-  <li><strong>Class Name</strong></li>
-  <li><strong>CSS Selector</strong></li>
-  <li><strong>XPath</strong></li>
-</ul>
-
-<h3>5. Assertions</h3>
-<ul>
-  <li><strong>Hard Assertions:</strong> Verify conditions and immediately stop execution if the assertion fails.</li>
-  <li><strong>Soft Assertions:</strong> Collect all assertion results and continue script execution.</li>
-</ul>
-
-<h3>6. Browser Navigation</h3>
-<ul>
-  <li>Navigate forward.</li>
-  <li>Navigate backward.</li>
-  <li>Refresh the current page.</li>
-</ul>
-
-
-
-<h2>Prerequisites</h2>
-<p>Ensure the following software and tools are installed before running the scripts:</p>
-<ul>
-  <li><strong>Pycharm (JDK)</strong></li>
-  <li><strong>Pytest</strong></li>
-  <li><strong>Selenium WebDriver</strong></li>
-  <li><strong>TestNG Framework</strong></li>
+  <li><strong>Programming Language:</strong> Python</li>
+  <li><strong>Framework:</strong> Selenium, Pytest</li>
+  <li><strong>Design Pattern:</strong> Page Object Model (POM)</li>
+  <li><strong>Features:</strong> Explicit Waits, Cross-Browser Testing, Locators</li>
 </ul>
 
 <hr />
 
+<h2>Features</h2>
+<ul>
+  <li><strong>Page Object Model:</strong> Implements reusable and maintainable page classes for web elements.</li>
+  <li><strong>Cross-Browser Testing:</strong> Tests can run on multiple browsers like Chrome, Firefox, etc.</li>
+  <li><strong>Wait Mechanism:</strong> Uses explicit waits to ensure stable test execution.</li>
+  <li><strong>Locators:</strong> Leverages ID, XPath, CSS Selector, and other locators for identifying elements.</li>
+  <li><strong>Pytest:</strong> Provides fixtures, assertions, and parametrization for structured testing.</li>
+</ul>
+
+<hr />
+
+<h2>Setup Instructions</h2>
+<ol>
+  <li>Clone the repository:</li>
+  <pre><code>git clone https://github.com/your-repo/TestProject.git</code></pre>
+  <li>Navigate to the project directory:</li>
+  <pre><code>cd TestProject</code></pre>
+  <li>Install dependencies:</li>
+  <pre><code>pip install -r requirements.txt</code></pre>
+  <li>Run the tests:</li>
+  <pre><code>pytest</code></pre>
+</ol>
+
+<hr />
+
+<h2>How to Use</h2>
+<p>
+  Configure the <code>config.ini</code> file in the <code>Configuration</code> folder for setting up URLs, browser type, etc.
+</p>
+<p>
+  Implement your test cases in the <code>test</code> folder using the page classes from the <code>pages</code> directory.
+</p>
+
+<hr />
+
 <h2>Dependencies</h2>
-<p>Add the following dependencies to your <code>pom.xml</code> file:</p>
 <pre>
 <code>
-&lt;dependencies&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.seleniumhq.selenium&lt;/groupId&gt;
-        &lt;artifactId&gt;selenium-java&lt;/artifactId&gt;
-        &lt;version&gt;4.x.x&lt;/version&gt;
-    &lt;/dependency&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.testng&lt;/groupId&gt;
-        &lt;artifactId&gt;testng&lt;/artifactId&gt;
-        &lt;version&gt;7.x.x&lt;/version&gt;
-        &lt;scope&gt;test&lt;/scope&gt;
-    &lt;/dependency&gt;
-&lt;/dependencies&gt;
+selenium==4.x.x
+pytest==7.x.x
+pytest-html==3.x.x
 </code>
 </pre>
 
 <hr />
 
-<h2>How to Use</h2>
-<ol>
-  <li>Clone this repository.</li>
-  <li>Open the project in your preferred IDE.</li>
-  <li>Configure the <code>pom.xml</code> file with the required dependencies.</li>
-  <li>Run the test scripts using TestNG.</li>
-</ol>
+<h2>Contributors</h2>
+<p>Feel free to contribute to this project by creating issues or submitting pull requests.</p>
 
+<h2>License</h2>
+<p>This project is licensed under the <strong>MIT License</strong>.</p>
