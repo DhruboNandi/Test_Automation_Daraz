@@ -14,7 +14,7 @@
   <li><strong>Programming Language:</strong> Python</li>
   <li><strong>Framework:</strong> Selenium, Pytest</li>
   <li><strong>Design Pattern:</strong> Page Object Model (POM)</li>
-  <li><strong>Features:</strong>TestNG Annotations,Locators, Waits, Cross-Browser Testing</li>
+  <li><strong>Features:</strong>Locators, Waits, Cross-Browser Testing</li>
 </ul>
 
 <hr />
